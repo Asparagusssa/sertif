@@ -4,7 +4,6 @@
         <form class="w-full sm:w-2/3" action="/search">
             @csrf
             <x-form.input name="q" placeholder="ООО Яндекс"/>
-
         </form>
     </div>
     <div class="flex flex-wrap gap-5">
